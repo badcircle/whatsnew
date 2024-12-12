@@ -19,7 +19,7 @@ A command-line utility that recursively searches directories to find files modif
 
 ## Installation
 
-Download the executable file from the Github Releases section and edit your System Path to include the path to the .exe, or
+Download the executable file from the Github Releases section and _edit your System Path to include the path_ to the .exe, or
 
 1. Clone the repository or download the source code:
 ```bash
@@ -35,7 +35,7 @@ gcc -o whatsnew.exe whatsnew.c
 ## Usage
 
 ```bash
-whatsnew.exe <folder_path> <days>
+whatsnew <folder_path> <days>
 ```
 
 ### Parameters:
