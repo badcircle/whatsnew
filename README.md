@@ -19,21 +19,23 @@ A command-line utility that recursively searches directories to find files modif
 
 ## Installation
 
+Download the executable file from the Github Releases section and edit your System Path to include the path to the .exe, or
+
 1. Clone the repository or download the source code:
 ```bash
 git clone [repository-url]
-cd file-change-finder
+cd whatsnew
 ```
 
 2. Compile the program using MinGW-w64:
 ```bash
-gcc -o file_change_finder.exe file_change_finder.c
+gcc -o whatsnew.exe whatsnew.c
 ```
 
 ## Usage
 
 ```bash
-file_change_finder.exe <folder_path> <days>
+whatsnew.exe <folder_path> <days>
 ```
 
 ### Parameters:
@@ -42,7 +44,7 @@ file_change_finder.exe <folder_path> <days>
 
 ### Example:
 ```bash
-file_change_finder.exe "C:\Users\John\Documents" 7
+whatsnew "C:\Users\John\Documents" 7
 ```
 
 This will search for all files in the Documents folder (and its subfolders) that were modified in the last 7 days.
