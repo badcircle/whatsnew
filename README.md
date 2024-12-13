@@ -23,7 +23,7 @@ Download the executable file from the Github Releases section and _edit your Sys
 
 1. Clone the repository or download the source code:
 ```bash
-git clone [repository-url]
+git clone https://github.com/badcircle/whatsnew.git
 cd whatsnew
 ```
 
